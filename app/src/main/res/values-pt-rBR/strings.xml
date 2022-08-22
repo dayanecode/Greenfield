@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Greenfield</string>
+    <string name="text_login">Login</string>
+    <string name="text_home_screen">Junte-se à batalha! Levantem suas espadas, heróis de Greenfield.</string>
+    <string name="text_user">Usuário</string>
+    <string name="text_pass">Senha</string>
+    <string name="text_forgot_pass">Esqueceu a senha?</string>
+    <string name="text_without_account">Não tem uma conta?</string>
+    <string name="btn_sign_up">INSCREVA-SE</string>
+    <string name="btn_login">ENTRAR</string>
+</resources>
