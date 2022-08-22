@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bege_claro_greenfield"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/text_login"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_home_screen"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.241"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <TextView
+        android:id="@+id/text_home_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_home_screen"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btn_login"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.311"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="204dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/bege_claro_greenfield"
+        android:text="@string/btn_sign_up"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-1dp" />
+
+    <TextView
+        android:id="@+id/text_without_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/text_without_account"
+        android:textColor="@color/azul_greenfield"
+        app:layout_constraintBottom_toTopOf="@id/btn_sign_up"
+        app:layout_constraintEnd_toStartOf="@+id/btn_login"
+        app:layout_constraintStart_toStartOf="@id/btn_sign_up" />
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="204dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/vermelho_greenfield"
+        android:text="@string/btn_login"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_forgot_pass"
+        app:layout_constraintVertical_bias="1.0"
+        app:rippleColor="#2196F3"
+        tools:layout_editor_absoluteX="210dp" />
+
+    <TextView
+        android:id="@+id/text_forgot_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_forgot_pass"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="594dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="415dp"
+        android:layout_height="400dp"
+        android:foreground="@mipmap/fundologin_round"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"></LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="20dp"
+        android:layout_height="19dp"
+        app:layout_constraintEnd_toStartOf="@+id/text_user"
+        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_person_black_24dp"
+        tools:layout_editor_absoluteY="514dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="20dp"
+        android:layout_height="19dp"
+        app:layout_constraintEnd_toStartOf="@+id/text_pass"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_lock_black_24dp"
+        tools:layout_editor_absoluteY="574dp" />
+
+    <TextView
+        android:id="@+id/text_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/text_pass"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/text_without_account"
+        app:layout_constraintTop_toBottomOf="@+id/text_user"
+        app:layout_constraintVertical_bias="0.474"
+        tools:layout_editor_absoluteX="65dp" />
+
+    <TextView
+        android:id="@+id/text_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/text_user"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/text_home_screen"
+        tools:layout_editor_absoluteX="66dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
