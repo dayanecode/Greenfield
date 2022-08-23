@@ -8,4 +8,17 @@
     <string name="text_without_account">Não tem uma conta?</string>
     <string name="btn_sign_up">INSCREVA-SE</string>
     <string name="btn_login">ENTRAR</string>
+    <string name="user_name">Pedro Silva</string>
+    <string name="user_class_level">Mago | Nível 10</string>
+    <string name="conquest_title">CONQUISTAS</string>
+    <string name="mission_name">Nome da Missão</string>
+    <string name="see_more">VER MAIS</string>
+    <string name="mission_description">Descrição da missão</string>
+    <string name="mission_points">0 Pontos</string>
+    <string name="available_mission_title">MISSÕES DISPONÍVEIS</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_ranking">Ranking</string>
+    <string name="menu_missions">Missões</string>
+    <string name="menu_treasures">Tesouros</string>
+    <string name="menu_profile">Perfil</string>
 </resources>

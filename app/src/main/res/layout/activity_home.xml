@@ -12,7 +12,7 @@
         android:id="@+id/user_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pedro Silva"
+        android:text="@string/user_name"
         android:textColor="@color/white"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="@+id/user_image_layout"
@@ -50,7 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Mago | Nível 10"
+        android:text="@string/user_class_level"
         android:textColor="@color/red"
         android:textSize="14sp"
         app:layout_constraintEnd_toStartOf="@+id/user_image_layout"
@@ -83,7 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Mission Name"
+            android:text="@string/mission_name"
             android:textColor="@color/white" />
 
         <TextView
@@ -91,7 +91,7 @@
             android:layout_width="match_parent"
             android:layout_height="16dp"
             android:layout_marginTop="8dp"
-            android:text="Mission description"
+            android:text="@string/mission_description"
             android:textColor="@color/white"
             android:textSize="10sp" />
 
@@ -100,7 +100,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="0000 Points"
+            android:text="@string/mission_points"
             android:textColor="@color/white" />
 
     </LinearLayout>
@@ -133,7 +133,7 @@
                 android:id="@+id/menu_home"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Home"
+                android:text="@string/menu_home"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -154,7 +154,7 @@
                 android:id="@+id/menu_ranking"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ranking"
+                android:text="@string/menu_ranking"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -175,7 +175,7 @@
                 android:id="@+id/menu_missions"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Missions"
+                android:text="@string/menu_missions"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -196,7 +196,7 @@
                 android:id="@+id/menu_treasures"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Treasures"
+                android:text="@string/menu_treasures"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -217,7 +217,7 @@
                 android:id="@+id/menu_profile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Profile"
+                android:text="@string/menu_profile"
                 android:textAlignment="center"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -227,7 +227,7 @@
         android:id="@+id/conquest_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Conquest"
+        android:text="@string/conquest_title"
         android:textColor="@color/pink"
         app:layout_constraintBottom_toTopOf="@+id/conquest_card_1"
         app:layout_constraintStart_toStartOf="@+id/conquest_card_1" />
@@ -257,7 +257,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Mission Name"
+            android:text="@string/mission_name"
             android:textColor="@color/white" />
 
         <TextView
@@ -265,7 +265,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Mission description"
+            android:text="@string/mission_description"
             android:textColor="@color/white"
             android:textSize="10sp" />
 
@@ -274,7 +274,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="0000 Points"
+            android:text="@string/mission_points"
             android:textColor="@color/white" />
     </LinearLayout>
 
@@ -282,7 +282,7 @@
         android:id="@+id/see_more_conquest_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="See more"
+        android:text="@string/see_more"
         android:textColor="@color/pink"
         app:layout_constraintBottom_toTopOf="@+id/conquest_card_seeMore"
         app:layout_constraintStart_toStartOf="@+id/conquest_card_seeMore" />
@@ -291,7 +291,7 @@
         android:id="@+id/available_mission_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Available Mission"
+        android:text="@string/available_mission_title"
         android:textColor="@color/pink"
         app:layout_constraintBottom_toTopOf="@+id/available_missions_card_1"
         app:layout_constraintStart_toStartOf="@+id/conquest_card_1" />
@@ -348,5 +348,14 @@
             android:scaleType="centerCrop"
             app:srcCompat="@drawable/available_mission" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/see_more_available_missions_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/see_more"
+        android:textColor="@color/pink"
+        app:layout_constraintBottom_toTopOf="@+id/available_missions_card_2"
+        app:layout_constraintStart_toStartOf="@+id/available_missions_card_2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

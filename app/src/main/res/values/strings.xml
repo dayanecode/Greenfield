@@ -8,4 +8,19 @@
     <string name="text_without_account">Don't have an account?</string>
     <string name="btn_sign_up">Sign up</string>
     <string name="btn_login">Get into</string>
+
+<!--    Home Page Strings-->
+    <string name="user_name">User name</string>
+    <string name="user_class_level">Class | Level 10</string>
+    <string name="conquest_title">CONQUESTS</string>
+    <string name="mission_name">Mission Name</string>
+    <string name="see_more">SEE MORE</string>
+    <string name="mission_description">Mission description</string>
+    <string name="mission_points">0 Points</string>
+    <string name="available_mission_title">AVAILABLE MISSIONS</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_ranking">Ranking</string>
+    <string name="menu_missions">Missions</string>
+    <string name="menu_treasures">Treasures</string>
+    <string name="menu_profile">Profile</string>
 </resources>
