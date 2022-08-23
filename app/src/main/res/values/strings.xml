@@ -5,7 +5,7 @@
     <string name="text_user">User</string>
     <string name="text_pass">Password</string>
     <string name="text_forgot_pass">Forgot password?</string>
-    <string name="text_without_account">Don't have an account?</string>
+    <string name="text_without_account">Don\'t have an account?</string>
     <string name="btn_sign_up">Sign up</string>
     <string name="btn_login">Get into</string>
 
