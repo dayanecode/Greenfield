@@ -40,7 +40,7 @@
 
     <Button
         android:id="@+id/btn_sign_up"
-        android:layout_width="204dp"
+        android:layout_width="185dp"
         android:layout_height="70dp"
         android:backgroundTint="@color/bege_claro_greenfield"
         android:text="@string/btn_sign_up"
@@ -65,13 +65,14 @@
 
     <Button
         android:id="@+id/btn_login"
-        android:layout_width="204dp"
+        android:layout_width="200dp"
         android:layout_height="100dp"
         android:backgroundTint="@color/vermelho_greenfield"
         android:text="@string/btn_login"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/btn_sign_up"
         app:layout_constraintTop_toBottomOf="@+id/text_forgot_pass"
         app:layout_constraintVertical_bias="1.0"
@@ -105,11 +106,13 @@
         android:id="@+id/image_user_icon"
         android:layout_width="20dp"
         android:layout_height="19dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="52dp"
+        android:layout_marginEnd="19dp"
         android:contentDescription="@string/image_user_icon"
         app:layout_constraintBottom_toTopOf="@+id/image_pass_icon"
-        app:layout_constraintEnd_toStartOf="@+id/text_user"
-        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintEnd_toStartOf="@+id/text_pass"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_home_screen"
         app:layout_constraintVertical_bias="0.0"
@@ -119,13 +122,15 @@
         android:id="@+id/image_pass_icon"
         android:layout_width="20dp"
         android:layout_height="19dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="21dp"
         android:contentDescription="@string/image_pass_icon"
         app:layout_constraintBottom_toTopOf="@+id/text_without_account"
-        app:layout_constraintEnd_toStartOf="@+id/text_pass"
-        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintEnd_toStartOf="@+id/text_user"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_home_screen"
-        app:layout_constraintVertical_bias="0.658"
+        app:layout_constraintVertical_bias="0.674"
         app:srcCompat="@drawable/ic_lock_black_24dp" />
 
     <TextView
@@ -135,25 +140,24 @@
         android:text="@string/text_pass"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/text_without_account"
-        app:layout_constraintEnd_toEndOf="@+id/text_without_account"
-        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.206"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_user_icon"
-        app:layout_constraintVertical_bias="0.24" />
+        app:layout_constraintTop_toTopOf="@+id/image_user_icon"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/text_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
         android:text="@string/text_user"
         android:textColor="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/image_pass_icon"
+        app:layout_constraintBottom_toTopOf="@+id/text_without_account"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintHorizontal_bias="0.195"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_home_screen"
-        app:layout_constraintVertical_bias="0.777" />
+        app:layout_constraintTop_toTopOf="@+id/image_pass_icon" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
