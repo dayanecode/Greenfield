@@ -1,7 +1,7 @@
 # Projeto - Greenfield
 Plataforma ESG com a temática de Fantasia Medieval
 
-## Bravos guerreiros bem-vindos ao reino de Greenfield!
+## Bravos guerreiros bem-vindos ao Reino de Greenfield!
 
 Desenvolvemos a ideia da plataforma ESG com a temática de Fantasia Medieval. A ideia encaixa muito bem com o conceito de gamificação para trabalhar a proposta. Os participantes criam seu perfil com um personagem que pode ser um guerreiro, mago, arqueiro ou bardo. Sobem de nível a cada missão aceita e concluída. O design será cartunesco com tons de bege, vermelho e azul que são cores que remetem imediatamente ao conceito de medieval. 
 A comunicação nesta temática buscará posicionar os participantes da plataforma como Heróis.
@@ -15,5 +15,5 @@ Exemplo de missões seguindo a temática:
 
 Teremos um painel de ranking e também um mural com as fotos reais dos participantes que subiram suas boas ações na plataforma.
 
-### Vamos embarcar na missão de fazermos um mundo melhor?!
+### Embarque na missão e nos ajude a fazer um mundo melhor!
 ![tela-login](https://user-images.githubusercontent.com/89798238/186051295-e8712798-c203-4e77-bec8-a2f32c5cca1c.png)
