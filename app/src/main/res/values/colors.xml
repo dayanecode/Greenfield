@@ -13,4 +13,10 @@
     <color name="bege_escuro_greenfield">#FDD8A4</color>
     <color name="vermelho_greenfield">#932C01</color>
     <color name="laranja_greenfield">#FF916E</color>
+
+    <color name="backgournd">#FFEED4A1</color>
+    <color name="menu_list">#FFFDD8A4</color>
+    <color name="blue">#FF6488FA</color>
+    <color name="red">#FF932C01</color>
+    <color name="pink">#FFFF916E</color>
 </resources>
