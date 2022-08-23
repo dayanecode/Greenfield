@@ -8,4 +8,6 @@
     <string name="text_without_account">Don't have an account?</string>
     <string name="btn_sign_up">Sign up</string>
     <string name="btn_login">Get into</string>
+    <string name="image_user_icon">Icon user</string>
+    <string name="image_pass_icon">Icon password</string>
 </resources>

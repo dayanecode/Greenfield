@@ -8,4 +8,6 @@
     <string name="text_without_account">Não tem uma conta?</string>
     <string name="btn_sign_up">INSCREVA-SE</string>
     <string name="btn_login">ENTRAR</string>
+    <string name="image_user_icon">Ícone de Usuário</string>
+    <string name="image_pass_icon">Ícone de cadeado</string>
 </resources>
