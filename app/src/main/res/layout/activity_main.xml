@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bege_claro_greenfield"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:viewBindingIgnore="false">
+
 
     <TextView
         android:id="@+id/text_login"
@@ -18,7 +20,8 @@
         app:layout_constraintBottom_toTopOf="@+id/text_home_screen"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         app:layout_constraintVertical_bias="0.241"
-        tools:layout_editor_absoluteX="28dp" />
+        tools:layout_editor_absoluteX="28dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/text_home_screen"
@@ -29,7 +32,8 @@
         app:layout_constraintBottom_toTopOf="@+id/btn_login"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         app:layout_constraintVertical_bias="0.311"
-        tools:layout_editor_absoluteX="28dp" />
+        tools:layout_editor_absoluteX="28dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/btn_sign_up"
@@ -40,7 +44,8 @@
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="-1dp" />
+        tools:layout_editor_absoluteX="-1dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/text_without_account"
@@ -66,7 +71,8 @@
         app:layout_constraintTop_toBottomOf="@+id/text_forgot_pass"
         app:layout_constraintVertical_bias="1.0"
         app:rippleColor="#2196F3"
-        tools:layout_editor_absoluteX="210dp" />
+        tools:layout_editor_absoluteX="210dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/text_forgot_pass"
@@ -75,7 +81,8 @@
         android:text="@string/text_forgot_pass"
         android:textColor="@color/black"
         tools:layout_editor_absoluteX="283dp"
-        tools:layout_editor_absoluteY="594dp" />
+        tools:layout_editor_absoluteY="594dp"
+        tools:ignore="MissingConstraints" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -97,7 +104,8 @@
         app:layout_constraintHorizontal_bias="0.76"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/ic_person_black_24dp"
-        tools:layout_editor_absoluteY="514dp" />
+        tools:layout_editor_absoluteY="514dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -107,7 +115,8 @@
         app:layout_constraintHorizontal_bias="0.733"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/ic_lock_black_24dp"
-        tools:layout_editor_absoluteY="574dp" />
+        tools:layout_editor_absoluteY="574dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/text_pass"
@@ -119,7 +128,8 @@
         app:layout_constraintBottom_toTopOf="@+id/text_without_account"
         app:layout_constraintTop_toBottomOf="@+id/text_user"
         app:layout_constraintVertical_bias="0.474"
-        tools:layout_editor_absoluteX="65dp" />
+        tools:layout_editor_absoluteX="65dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/text_user"
@@ -129,7 +139,8 @@
         android:text="@string/text_user"
         android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@+id/text_home_screen"
-        tools:layout_editor_absoluteX="66dp" />
+        tools:layout_editor_absoluteX="66dp"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
