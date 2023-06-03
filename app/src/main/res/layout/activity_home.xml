@@ -6,9 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/backgournd"
-    tools:context=".MainActivity">
+    tools:viewBindingIgnore="false"
+    >
 
-    <TextView
+   <TextView
         android:id="@+id/user_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -109,8 +110,7 @@
         android:id="@+id/footer"
         android:layout_width="0dp"
         android:layout_height="70dp"
-        android:layout_marginBottom="2dp"
-        android:background="@drawable/conquest_background"
+        android:background="@drawable/footer_background"
         android:orientation="horizontal"
         android:padding="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -121,6 +121,7 @@
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:gravity="center"
             android:orientation="vertical">
 
             <ImageView
@@ -139,9 +140,11 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/ranking_menu"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:gravity="center"
             android:orientation="vertical">
 
             <ImageView
@@ -163,6 +166,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:gravity="center"
             android:orientation="vertical">
 
             <ImageView
@@ -184,6 +188,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:gravity="center"
             android:orientation="vertical">
 
             <ImageView
@@ -205,6 +210,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:gravity="center"
             android:orientation="vertical">
 
             <ImageView
@@ -357,5 +363,119 @@
         android:textColor="@color/pink"
         app:layout_constraintBottom_toTopOf="@+id/available_missions_card_2"
         app:layout_constraintStart_toStartOf="@+id/available_missions_card_2" />
+
+<!--    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="home container"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/home_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/profile_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingHorizontal="30dp"
+                android:paddingTop="50dp">
+
+                <LinearLayout
+                    android:id="@+id/profile_content_texts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/user_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_name"
+                        android:textColor="@color/white"
+                        android:textSize="34sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/user_class_level"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_class_level"
+                        android:textColor="@color/red"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/user_image_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:background="@drawable/profile_image"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/user_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/user" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/class_title"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/unlocked_tittle" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:background="@drawable/conquest_background"
+                app:cardBackgroundColor="@color/red"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/mission_image"
+                        app:srcCompat="@drawable/mission_image"
+                        tools:srcCompat="@drawable/mission_image" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mission_name"
+                        android:textColor="@color/blue"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

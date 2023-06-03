@@ -6,10 +6,12 @@
     <string name="text_pass">Password</string>
     <string name="text_forgot_pass">Forgot password?</string>
     <string name="text_without_account">Don\'t have an account?</string>
-    <string name="btn_sign_up">Sign up</string>
-    <string name="btn_login">Get into</string>
+    <string name="btn_sign_up">SIGN UP</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="register_have_account" translatable="false">I already have account. <font color="#FF6488FA">Login</font>
+    </string>
 
-<!--    Home Page Strings-->
+    <!--    Home Page Strings-->
     <string name="user_name">User name</string>
     <string name="user_class_level">Class | Level 10</string>
     <string name="conquest_title">CONQUESTS</string>

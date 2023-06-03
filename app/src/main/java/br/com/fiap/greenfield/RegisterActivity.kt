@@ -1,6 +1,7 @@
 package br.com.fiap.greenfield
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.TextView
@@ -23,12 +24,13 @@ class RegisterActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-        val zip: TextView = binding.zip
-        val street: ConstraintLayout = binding.streetInput
-        val complement: ConstraintLayout = binding.complementInput
-        val district: ConstraintLayout = binding.districtInput
-        val city: ConstraintLayout = binding.cityInput
-        binding.searchZIPButton.setOnClickListener {
+        val zip = binding.zipInput
+        val street = binding.streetInput
+        val complement = binding.complementInput
+        val district = binding.districtInput
+        val city = binding.cityInput
+
+        binding.btnSearchZip.setOnClickListener {
             val call = RetrofitFactory().retrofitService().getCEP(zip.text.toString())
 
             call.enqueue(object: Callback<ZIP> {
@@ -44,8 +46,12 @@ class RegisterActivity : AppCompatActivity() {
                 override fun onFailure(call: Call<ZIP>?, t: Throwable?) {
                     t?.message?.let { it1 -> Log.e("Erro", it1) }
                 }
-
             })
+        }
+
+        binding.haveAccountTxt.setOnClickListener {
+            val i = Intent(this@RegisterActivity, MainActivity::class.java)
+            startActivity(i)
         }
     }
 }

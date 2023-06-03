@@ -222,7 +222,7 @@
         android:id="@+id/footer"
         android:layout_width="0dp"
         android:layout_height="70dp"
-        android:background="@drawable/conquest_background"
+        android:background="@drawable/footer_background"
         android:orientation="horizontal"
         android:padding="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -230,6 +230,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
+            android:id="@+id/home_menu"
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
