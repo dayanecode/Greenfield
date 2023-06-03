@@ -1,5 +1,7 @@
 package br.com.fiap.greenfield.domain
 
+import androidx.room.Embedded
+import androidx.room.Entity
 import com.fasterxml.jackson.annotation.JsonFormat
 import jakarta.persistence.*
 import lombok.AllArgsConstructor
@@ -7,6 +9,7 @@ import lombok.Builder
 import lombok.Data
 import lombok.NoArgsConstructor
 import java.util.*
+
 
 @Data
 @AllArgsConstructor
