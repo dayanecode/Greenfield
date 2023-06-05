@@ -3,9 +3,8 @@ package br.com.fiap.greenfield
 import com.google.gson.annotations.SerializedName
 
 data class ZIP (
-    @SerializedName("cep") val cep: String,
-    @SerializedName("rua") val rua: String,
-    @SerializedName("complemento") val complemento: String,
-    @SerializedName("bairro") val bairro: String,
-    @SerializedName("cidade") val cidade: String
+    @SerializedName("cep") val zip: String,
+    @SerializedName("logradouro") val street: String,
+    @SerializedName("bairro") val district: String,
+    @SerializedName("localidade") val city: String
 )
