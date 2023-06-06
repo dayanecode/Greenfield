@@ -16,4 +16,5 @@ Exemplo de missões seguindo a temática:
 Teremos um painel de ranking e também um mural com as fotos reais dos participantes que subiram suas boas ações na plataforma.
 
 ### Embarque na missão e nos ajude a fazer um mundo melhor!
-![tela-login](https://user-images.githubusercontent.com/89798238/186051295-e8712798-c203-4e77-bec8-a2f32c5cca1c.png)
+![login_page](https://github.com/RickFernandez/Greenfield/assets/89798238/32dda9e0-d869-4cdd-bbd5-5ad711957007)
+![signup_page_1](https://github.com/RickFernandez/Greenfield/assets/89798238/09759ea0-8911-4800-9361-d71edebeb4f7)
