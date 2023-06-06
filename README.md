@@ -25,9 +25,33 @@ Exemplo de missões seguindo a temática:
 Teremos um painel de ranking e também um mural com as fotos reais dos participantes que subiram suas boas ações na plataforma.
 
 ### Embarque na missão e nos ajude a fazer um mundo melhor!
-![login_page](https://github.com/RickFernandez/Greenfield/assets/89798238/32dda9e0-d869-4cdd-bbd5-5ad711957007)
-![signup_page_1](https://github.com/RickFernandez/Greenfield/assets/89798238/09759ea0-8911-4800-9361-d71edebeb4f7)
-![signup_page_2](https://github.com/RickFernandez/Greenfield/assets/89798238/996df7a0-88cb-4318-8ac0-55b9cde78386)
-![home_page](https://github.com/RickFernandez/Greenfield/assets/89798238/363e2430-099e-4ef3-bb4f-c1bdaf38783c)
-![ranking_page](https://github.com/RickFernandez/Greenfield/assets/89798238/89f63b85-42f8-4474-8920-62462c5e618c)
 
+Fluxo da aplicação:
+<br/>
+
+Para começarmos temos a tela de login, onde o usuário pode entrar em sua conta, ou caso não seja cadastrado ou tenha esquecido a senha, pode seguir para esses outros dois fluxos.
+<br/>
+![login_page](https://github.com/RickFernandez/Greenfield/assets/89798238/32dda9e0-d869-4cdd-bbd5-5ad711957007)
+<br/>
+
+Caso o usuário não tenha uma conta, ele pode se cadastrar fornecendo algumas informações pessoais, como seu nome, email, e criando uma senha.
+<br/>
+![signup_page_1](https://github.com/RickFernandez/Greenfield/assets/89798238/09759ea0-8911-4800-9361-d71edebeb4f7)
+<br/>
+
+Além disso, pedimos informações sobre seu endereço, para que possamos melhorar a experiência do usuário com nosso sistema de gamificação.
+<br/>
+![signup_page_2](https://github.com/RickFernandez/Greenfield/assets/89798238/996df7a0-88cb-4318-8ac0-55b9cde78386)
+<br/>
+
+Ao entrar em sua conta, o usuário irá se deparar com essa tela (home page). Onde ele terá a visualização de missões para ele fazer e conquistas liberadas por ele.
+<br/>
+![home_page](https://github.com/RickFernandez/Greenfield/assets/89798238/363e2430-099e-4ef3-bb4f-c1bdaf38783c)
+<br/>
+
+E tem também uma tela de ranking, para dar um gostinho de competição e deixar tudo mais legal! Onde o usuário poderá ver sua posição de pontuação em relação a seus amigos.
+<br/>
+![ranking_page](https://github.com/RickFernandez/Greenfield/assets/89798238/89f63b85-42f8-4474-8920-62462c5e618c)
+<br/>
+
+#### OBS: Por enquanto, nossa aplicação possúi apenas essas telas. Mas não se preocupem, o restando já está em desenvolvimento! =) 
