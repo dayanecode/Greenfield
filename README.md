@@ -54,4 +54,7 @@ E tem também uma tela de ranking, para dar um gostinho de competição e deixar
 ![ranking_page](https://github.com/RickFernandez/Greenfield/assets/89798238/89f63b85-42f8-4474-8920-62462c5e618c)
 <br/>
 
-#### OBS: Por enquanto, nossa aplicação possúi apenas essas telas. Mas não se preocupem, o restando já está em desenvolvimento! =) 
+#### OBS: Por enquanto, nossa aplicação possúi apenas essas telas. Mas não se preocupem, o restando já está em desenvolvimento! =)
+
+Mais informações do projeto (Gamificação e Plano de marketing para lançamento):
+[Gamificação_E_Marketing(Greenfield).pdf](https://github.com/RickFernandez/Greenfield/files/11658986/Gamificacao_E_Marketing.Greenfield.pdf)
