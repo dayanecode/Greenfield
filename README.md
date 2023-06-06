@@ -30,6 +30,9 @@ Fluxo da aplicação:
 <br/>
 
 Para começarmos temos a tela de login, onde o usuário pode entrar em sua conta, ou caso não seja cadastrado ou tenha esquecido a senha, pode seguir para esses outros dois fluxos.
+Usuário teste:
+email - usuario1@email.com
+senha - senha123
 <br/>
 ![login_page](https://github.com/RickFernandez/Greenfield/assets/89798238/32dda9e0-d869-4cdd-bbd5-5ad711957007)
 <br/>
