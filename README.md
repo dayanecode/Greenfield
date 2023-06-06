@@ -28,4 +28,6 @@ Teremos um painel de ranking e também um mural com as fotos reais dos participa
 ![login_page](https://github.com/RickFernandez/Greenfield/assets/89798238/32dda9e0-d869-4cdd-bbd5-5ad711957007)
 ![signup_page_1](https://github.com/RickFernandez/Greenfield/assets/89798238/09759ea0-8911-4800-9361-d71edebeb4f7)
 ![signup_page_2](https://github.com/RickFernandez/Greenfield/assets/89798238/996df7a0-88cb-4318-8ac0-55b9cde78386)
+![home_page](https://github.com/RickFernandez/Greenfield/assets/89798238/363e2430-099e-4ef3-bb4f-c1bdaf38783c)
+![ranking_page](https://github.com/RickFernandez/Greenfield/assets/89798238/89f63b85-42f8-4474-8920-62462c5e618c)
 
