@@ -18,3 +18,5 @@ Teremos um painel de ranking e também um mural com as fotos reais dos participa
 ### Embarque na missão e nos ajude a fazer um mundo melhor!
 ![login_page](https://github.com/RickFernandez/Greenfield/assets/89798238/32dda9e0-d869-4cdd-bbd5-5ad711957007)
 ![signup_page_1](https://github.com/RickFernandez/Greenfield/assets/89798238/09759ea0-8911-4800-9361-d71edebeb4f7)
+![signup_page_2](https://github.com/RickFernandez/Greenfield/assets/89798238/996df7a0-88cb-4318-8ac0-55b9cde78386)
+
